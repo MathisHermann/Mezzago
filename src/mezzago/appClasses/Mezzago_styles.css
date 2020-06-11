@@ -1,0 +1,235 @@
+.ChatPane {
+  -fx-background-color: white;
+}
+
+.ChatTopPane {
+  -fx-background-color: #d9d9d9;
+}
+
+.LogoBox {
+  -fx-background-color: #07beb8;
+}
+.LogoBoxLogin {
+  -fx-padding: 20 0 0 0;
+}
+
+.img-logo {
+  -fx-padding: 70 10 70 10;
+}
+
+.AccountHBox {
+  -fx-background-color: #c4fff9;
+}
+
+.account-button {
+	-fx-background-color: transparent;
+	-fx-background-radius: 0;
+	-fx-pref-width: 200px;
+	-fx-text-alignment: center;
+  -display: block;
+  -width: 100%;
+  -border: none;
+  -fx-font-size: 1.1em;
+  -fx-alignment: center-left;
+}
+
+.account-button:hover {
+  -fx-background-color: #45a29e;   
+  -fx-background-radius: 0;
+}
+
+.account-button:pressed {
+  -fx-font-weight: bold; 
+  -fx-font-size: 1.1em; 
+  -fx-background-radius: 0;
+}
+
+.text-in {
+  -fx-padding: 5px;
+  -fx-border-insets: 5px;
+  -fx-background-insets: 5px;
+  -fx-accent: #5bddd3;
+}
+
+.chat-box {
+  -fx-border-color: black;
+  -fx-padding: 20 10 20 10;
+  -fx-border-width: 1 0 0 0;
+}
+
+.btn-send {
+  -fx-padding: 5 0 5 0;
+  -fx-background-color: white;
+}
+
+.btn-send:hover {
+  -fx-background-color: #5bddd3;
+}
+
+.lbl-chat-pane {
+  -fx-line-spacing: 5px;
+}
+
+.single-channel {
+  -fx-padding: 5 0 5 0;
+  -fx-background-color: transparent;
+}
+
+.single-channel:hover {
+  -fx-padding: 5 0 5 0;
+  -fx-text-fill: white;
+}
+
+/* online status */
+
+.default-fill-black {
+  -fx-fill: black;
+}
+
+.fill-grey {
+  -fx-fill: grey;
+}
+
+.fill-red {
+  -fx-fill: red;
+}
+
+.fill-green {
+  -fx-fill: green;
+}
+
+.fill-transparent {
+  -fx-fill: transparent;
+}
+
+/* SIDEBAR */
+
+.select-option-channel {
+  -fx-background-color: lightgrey;
+	-fx-background-radius: 0;
+	-fx-pref-width: 100px;
+	-fx-text-alignment: center;
+  -display: block;
+  -width: 100%;
+  -border: none;
+  -fx-font-size: 1.1em;
+  -fx-alignment: center-left;
+}
+
+.select-option-channel-wide {
+	-fx-pref-width: 200px;
+}
+
+.select-option-channel:hover {
+  -fx-background-color: #45a29e;   
+  -fx-background-radius: 0; 
+}
+
+.select-option-channel:pressed {
+  -fx-background-color: rgba(255, 0, 0, 0.2);
+  -fx-font-weight: bold; 
+  -fx-font-size: 1.1em; 
+  -fx-background-radius: 0;
+}
+
+.group-chat-channel {
+	-fx-background-color: transparent;
+	-fx-background-radius: 0;
+	-fx-pref-width: 200px;
+	-fx-text-alignment: left;
+  -display: block;
+  -width: 100%;
+  -border: none;
+  -fx-font-size: 1.1em;
+  -fx-alignment: center-left;
+}
+.group-chat-channel:hover {
+    -fx-background-color: #45a29e;   
+    -fx-background-radius: 0; 
+}
+.group-chat-channel:pressed {
+    -fx-background-color: rgba(255, 0, 0, 0.2);
+    -fx-font-weight: bold; 
+    -fx-font-size: 1.1em; 
+    -fx-background-radius: 0;
+}
+
+
+.direct-message-channel {
+	-fx-background-color: transparent;
+	-fx-pref-width: 200px;
+	-fx-text-alignment: left; 
+  -display: block;
+  -width: 100%;
+  -border: none;
+  -fx-font-size: 1.1em;
+  -fx-background-radius: 0;
+  -fx-alignment: center-left;
+}
+.direct-message-channel:hover {
+  -fx-background-color: #45a29e;  
+  -fx-background-radius: 0; 
+}
+
+.direct-message-channel:pressed {
+  -fx-background-color: rgba(255, 0, 0, 0.2);
+  -fx-font-weight: bold;  
+  -fx-font-size: 1.1em;
+  -fx-background-radius: 0;
+}
+
+
+.new-message {
+  -fx-background-color: rgb(204, 204, 204);
+  -fx-font-weight: bold;
+  -fx-text-fill: white;
+}
+
+
+/* Login scene stuff */
+
+.btn-login {
+  -fx-background-color: #5bddd3;
+  -fx-background-radius: 2;
+  -fx-pref-width: 230px;
+  -display: block;
+  -width: 100%;
+  -fx-border-color: #5bddd3;
+  -fx-border-radius: 2;
+  -fx-font-size: 1.3em;
+  -fx-font-weight: bold;
+}
+
+.btn-login:hover {
+  -fx-background-color: white;
+  -fx-border-radius: 2;
+  -fx-border-color: #5bddd3;
+}
+
+
+.btn-create-login {
+  -fx-background-color: #07beb8;
+  -fx-background-radius: 2;
+  -fx-pref-width: 140px;
+  -fx-font-size: 0.9em;
+  -fx-font-weight: bold;
+  -fx-border-color: #07beb8;
+  -display: block;
+  -width: 100%;
+  -height:100%;
+}
+.btn-create-login:hover {
+  -fx-background-color: white;
+  -fx-border-radius: 2;
+  -fx-border-color: #07beb8;
+  }
+
+.lbl-newlogin {
+  -fx-padding: 40 0 0 0;
+}
+
+.mezzago-link {
+  -fx-padding: 5px;
+  -fx-border-insets: 5px;
+  -fx-background-insets: 5px;
+}
